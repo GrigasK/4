@@ -7,6 +7,10 @@
     "Lucida Sans", Arial, sans-serif;
 }
 
+body {
+  background-image: url(https://i.pinimg.com/originals/9d/1f/c2/9d1fc26f5099694c01028803aaf4fea9.jpg);
+}
+
 /* Mobile first */
 .wrapper {
   min-height: 100vh;
@@ -24,13 +28,15 @@
 .container,
 h1 {
   margin-top: 50px;
-  color: #333;
+  color: black;
 }
 
 .output {
   width: 90%;
 }
 .car-container {
+  color: white;
+  background-color: pink;
   text-align: center;
   border: 2px solid black;
   border-radius: 10px;
